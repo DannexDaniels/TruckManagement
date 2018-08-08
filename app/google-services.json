@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "702764424999",
+    "firebase_url": "https://cargomanagement-8f502.firebaseio.com",
+    "project_id": "cargomanagement-8f502",
+    "storage_bucket": "cargomanagement-8f502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702764424999:android:502f682436b859dd",
+        "android_client_info": {
+          "package_name": "com.dannextech.apps.truckmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702764424999-esdt81o5gc9dfuj0s2pj2r73om0m3hpr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "702764424999-esdt81o5gc9dfuj0s2pj2r73om0m3hpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPJfAcqhhSdH9mJM2Fwd9DEw_FpUE3VxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

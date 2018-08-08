@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="truck_type">
+        <item>Tractor Unit</item>
+        <item>Canter</item>
+        <item>Pick-Up</item>
+    </string-array>
+    <string-array name="cargo_type">
+        <item>Durable-Big</item>
+        <item>Durable-Medium</item>
+        <item>Durable-Small</item>
+        <item>Perishable</item>
+        <item>Fragile</item>
+    </string-array>
+    <string-array name="routes">
+        <item>Nairobi - Mombasa</item>
+        <item>Nairobi - Kisumu</item>
+        <item>Mombasa - Nairobi</item>
+        <item>Mombasa - Kisumu</item>
+        <item>Kisumu - Nairobi</item>
+        <item>Kisumu - Mombasa</item>
+    </string-array>
+</resources>

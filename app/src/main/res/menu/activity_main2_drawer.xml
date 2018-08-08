@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navDriver"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Drivers" />
+        <item
+            android:id="@+id/navTruck"
+            android:icon="@drawable/ic_local_shipping_black_24dp"
+            android:title="Trucks" />
+        <item
+            android:id="@+id/navAddDriver"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Add Driver" />
+        <item
+            android:id="@+id/navAddTruck"
+            android:icon="@drawable/ic_add_circle_outline_black_24dp"
+            android:title="Add Truck" />
+        <item
+            android:id="@+id/navTransSchedule"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Transport Schedule" />
+        <item
+            android:id="@+id/navMonitor"
+            android:icon="@drawable/ic_remove_red_eye_black_24dp"
+            android:title="Monitor Transit" />
+    </group>
+
+</menu>

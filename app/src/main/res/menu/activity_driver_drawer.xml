@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_work"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Jobs" />
+        <item
+            android:id="@+id/nav_my_truck"
+            android:icon="@drawable/ic_directions_bus_black_24dp"
+            android:title="My Truck" />
+        <item
+            android:id="@+id/nav_driver_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_driver_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="LogOut" />
+    </group>
+</menu>

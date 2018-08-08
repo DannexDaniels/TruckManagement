@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_driver"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Add Driver" />
+        <item
+            android:id="@+id/nav_add_truck"
+            android:icon="@drawable/ic_add_circle_outline_black_24dp"
+            android:title="Add Truck" />
+        <item
+            android:id="@+id/nav_view_all_cargo"
+            android:icon="@drawable/ic_remove_red_eye_black_24dp"
+            android:title="View Cargos" />
+        <item
+            android:id="@+id/nav_track_cargo"
+            android:icon="@drawable/ic_track_changes_black_24dp"
+            android:title="Track Cargo" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_my_drivers"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="My Drivers" />
+            <item
+                android:id="@+id/nav_my_trucks"
+                android:icon="@drawable/ic_directions_bus_black_24dp"
+                android:title="My Trucks" />
+        </menu>
+    </item>
+
+</menu>
